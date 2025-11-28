@@ -1,0 +1,4 @@
+Experiment: transformer_deit_20251127_134318
+Model: deit
+Best validation accuracy: 0.0588
+Total epochs: 25

@@ -1,0 +1,720 @@
+{
+    "CNN (FaceNet + ArcFace)": {
+        "accuracy": 0.9354838709677419,
+        "precision": 0.9454813108038914,
+        "recall": 0.9354838709677419,
+        "f1_score": 0.9308903462129269,
+        "top5_accuracy": 0.978494623655914,
+        "per_class_metrics": {
+            "Abraham Ganda Napitu": {
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "Abu Bakar Siddiq Siregar": {
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "Ahmad Faqih Hasani": {
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "Aldi Sanjaya": {
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "Alfajar": {
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "Alief Fathur Rahman": {
+                "precision": 0.0,
+                "recall": 0.0,
+                "f1": 0.0
+            },
+            "Arkan Hariz Chandrawinata Liem": {
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "Bayu Ega Ferdana": {
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "Bayu Prameswara Haris": {
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "Bezalel Samuel Manik": {
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "Bintang Fikri Fauzan": {
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "Boy Sandro Sigiro": {
+                "precision": 0.75,
+                "recall": 1.0,
+                "f1": 0.8571428571428571
+            },
+            "Desty Ananta Purba": {
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "Dimas Azi Rajab Aizar": {
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "Dito Rifki Irawan": {
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "Dwi Arthur Revangga": {
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "Dyo Dwi Carol Bukit": {
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "Eden Wijaya": {
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "Eichal Elphindo Ginting": {
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "Elsa Elisa Yohana Sianturi": {
+                "precision": 0.75,
+                "recall": 1.0,
+                "f1": 0.8571428571428571
+            },
+            "Fajrul Ramadhana Aqsa": {
+                "precision": 0.6666666666666666,
+                "recall": 0.6666666666666666,
+                "f1": 0.6666666666666666
+            },
+            "Falih Dzakwan Zuhdi": {
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "Fathan Andi Kartagama": {
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "Fayyadh Abdillah": {
+                "precision": 0.75,
+                "recall": 1.0,
+                "f1": 0.8571428571428571
+            },
+            "Femmy Aprillia Putri": {
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "Ferdana Al Hakim": {
+                "precision": 1.0,
+                "recall": 0.6666666666666666,
+                "f1": 0.8
+            },
+            "Festus Mikhael": {
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "Fiqri Aldiansyah": {
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "Freddy Harahap": {
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "Gabriella Natalya Rumapea": {
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "Garland Wijaya": {
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "Havidz Ridho Pratama": {
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "Ichsan Kuntadi Baskara": {
+                "precision": 0.75,
+                "recall": 1.0,
+                "f1": 0.8571428571428571
+            },
+            "Ikhsannudin Lathief": {
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "Intan Permata Sari": {
+                "precision": 1.0,
+                "recall": 0.5,
+                "f1": 0.6666666666666666
+            },
+            "JP. Rafi Radiktya Arkan. R. AZ": {
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "Joshia Fernandes Sectio Purba": {
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "Joshua Palti Sinaga": {
+                "precision": 0.8571428571428571,
+                "recall": 1.0,
+                "f1": 0.9230769230769231
+            },
+            "Joy Daniella V": {
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "Joyapul Hanscalvin Panjaitan": {
+                "precision": 0.6,
+                "recall": 1.0,
+                "f1": 0.75
+            },
+            "Kayla Chika Lathisya": {
+                "precision": 1.0,
+                "recall": 0.6666666666666666,
+                "f1": 0.8
+            },
+            "Kenneth Austin Wijaya": {
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "Kevin Naufal Dany": {
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "Lois Novel E Gurning": {
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "Machzaul harmansyah": {
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "Martua Kevin A.M.H.Lubis": {
+                "precision": 1.0,
+                "recall": 0.5,
+                "f1": 0.6666666666666666
+            },
+            "Muhammad Fasya Atthoriq": {
+                "precision": 1.0,
+                "recall": 0.6666666666666666,
+                "f1": 0.8
+            },
+            "Muhammad Nelwan Fakhri": {
+                "precision": 0.6666666666666666,
+                "recall": 1.0,
+                "f1": 0.8
+            },
+            "Muhammad Riveldo Hermawan Putra": {
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "Muhammad Zada Rizki": {
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "Mychael Daniel N": {
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "Nasya Aulia Efendi": {
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "Raditya Erza Farandi": {
+                "precision": 1.0,
+                "recall": 0.5,
+                "f1": 0.6666666666666666
+            },
+            "Rahmat Aldi Nasda": {
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "Randy Hendriyawan": {
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "Rayhan Fadel Irwanto": {
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "Rayhan Fatih Gunawan": {
+                "precision": 0.3333333333333333,
+                "recall": 1.0,
+                "f1": 0.5
+            },
+            "Reynaldi Cristian Simamora": {
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "Rizky Abdillah": {
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "Royfran Roger Valentino": {
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "Rustian Afencius Marbun": {
+                "precision": 1.0,
+                "recall": 0.6666666666666666,
+                "f1": 0.8
+            },
+            "Shintya Ayu Wardani": {
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "Sikah Nubuahtul Ilmi": {
+                "precision": 0.75,
+                "recall": 1.0,
+                "f1": 0.8571428571428571
+            },
+            "William Chan": {
+                "precision": 1.0,
+                "recall": 0.6666666666666666,
+                "f1": 0.8
+            },
+            "Yohanna Anzelika Sitepu": {
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "Zakhi algifari": {
+                "precision": 1.0,
+                "recall": 0.6666666666666666,
+                "f1": 0.8
+            },
+            "Zaky Ahmad Makarim": {
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "Zefanya Danovanta Tarigan": {
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "Zidan Raihan": {
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "hayyatul fajri": {
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            }
+        }
+    },
+    "Transformer (DeiT)": {
+        "accuracy": 0.026881720430107527,
+        "precision": 0.031586021505376344,
+        "recall": 0.026881720430107527,
+        "f1_score": 0.02328805885681947,
+        "top5_accuracy": 0.0913978494623656,
+        "per_class_metrics": {
+            "Abraham Ganda Napitu": {
+                "precision": 0.0,
+                "recall": 0.0,
+                "f1": 0.0
+            },
+            "Abu Bakar Siddiq Siregar": {
+                "precision": 0.0,
+                "recall": 0.0,
+                "f1": 0.0
+            },
+            "Ahmad Faqih Hasani": {
+                "precision": 0.0,
+                "recall": 0.0,
+                "f1": 0.0
+            },
+            "Aldi Sanjaya": {
+                "precision": 0.0,
+                "recall": 0.0,
+                "f1": 0.0
+            },
+            "Alfajar": {
+                "precision": 0.0,
+                "recall": 0.0,
+                "f1": 0.0
+            },
+            "Alief Fathur Rahman": {
+                "precision": 0.0,
+                "recall": 0.0,
+                "f1": 0.0
+            },
+            "Arkan Hariz Chandrawinata Liem": {
+                "precision": 0.0,
+                "recall": 0.0,
+                "f1": 0.0
+            },
+            "Bayu Ega Ferdana": {
+                "precision": 0.0,
+                "recall": 0.0,
+                "f1": 0.0
+            },
+            "Bayu Prameswara Haris": {
+                "precision": 0.0,
+                "recall": 0.0,
+                "f1": 0.0
+            },
+            "Bezalel Samuel Manik": {
+                "precision": 0.0,
+                "recall": 0.0,
+                "f1": 0.0
+            },
+            "Bintang Fikri Fauzan": {
+                "precision": 0.0,
+                "recall": 0.0,
+                "f1": 0.0
+            },
+            "Boy Sandro Sigiro": {
+                "precision": 0.0,
+                "recall": 0.0,
+                "f1": 0.0
+            },
+            "Desty Ananta Purba": {
+                "precision": 0.0,
+                "recall": 0.0,
+                "f1": 0.0
+            },
+            "Dimas Azi Rajab Aizar": {
+                "precision": 0.0,
+                "recall": 0.0,
+                "f1": 0.0
+            },
+            "Dito Rifki Irawan": {
+                "precision": 0.0,
+                "recall": 0.0,
+                "f1": 0.0
+            },
+            "Dwi Arthur Revangga": {
+                "precision": 0.0,
+                "recall": 0.0,
+                "f1": 0.0
+            },
+            "Dyo Dwi Carol Bukit": {
+                "precision": 0.0,
+                "recall": 0.0,
+                "f1": 0.0
+            },
+            "Eden Wijaya": {
+                "precision": 0.0,
+                "recall": 0.0,
+                "f1": 0.0
+            },
+            "Eichal Elphindo Ginting": {
+                "precision": 0.0,
+                "recall": 0.0,
+                "f1": 0.0
+            },
+            "Elsa Elisa Yohana Sianturi": {
+                "precision": 0.0,
+                "recall": 0.0,
+                "f1": 0.0
+            },
+            "Fajrul Ramadhana Aqsa": {
+                "precision": 0.0,
+                "recall": 0.0,
+                "f1": 0.0
+            },
+            "Falih Dzakwan Zuhdi": {
+                "precision": 0.0,
+                "recall": 0.0,
+                "f1": 0.0
+            },
+            "Fathan Andi Kartagama": {
+                "precision": 0.0,
+                "recall": 0.0,
+                "f1": 0.0
+            },
+            "Fayyadh Abdillah": {
+                "precision": 0.0,
+                "recall": 0.0,
+                "f1": 0.0
+            },
+            "Femmy Aprillia Putri": {
+                "precision": 0.0,
+                "recall": 0.0,
+                "f1": 0.0
+            },
+            "Ferdana Al Hakim": {
+                "precision": 0.0,
+                "recall": 0.0,
+                "f1": 0.0
+            },
+            "Festus Mikhael": {
+                "precision": 0.0,
+                "recall": 0.0,
+                "f1": 0.0
+            },
+            "Fiqri Aldiansyah": {
+                "precision": 0.0,
+                "recall": 0.0,
+                "f1": 0.0
+            },
+            "Freddy Harahap": {
+                "precision": 0.0,
+                "recall": 0.0,
+                "f1": 0.0
+            },
+            "Gabriella Natalya Rumapea": {
+                "precision": 0.0,
+                "recall": 0.0,
+                "f1": 0.0
+            },
+            "Garland Wijaya": {
+                "precision": 0.0,
+                "recall": 0.0,
+                "f1": 0.0
+            },
+            "Havidz Ridho Pratama": {
+                "precision": 0.0,
+                "recall": 0.0,
+                "f1": 0.0
+            },
+            "Ichsan Kuntadi Baskara": {
+                "precision": 0.0,
+                "recall": 0.0,
+                "f1": 0.0
+            },
+            "Ikhsannudin Lathief": {
+                "precision": 0.0,
+                "recall": 0.0,
+                "f1": 0.0
+            },
+            "Intan Permata Sari": {
+                "precision": 0.0,
+                "recall": 0.0,
+                "f1": 0.0
+            },
+            "JP. Rafi Radiktya Arkan. R. AZ": {
+                "precision": 0.0,
+                "recall": 0.0,
+                "f1": 0.0
+            },
+            "Joshia Fernandes Sectio Purba": {
+                "precision": 0.0,
+                "recall": 0.0,
+                "f1": 0.0
+            },
+            "Joshua Palti Sinaga": {
+                "precision": 0.0,
+                "recall": 0.0,
+                "f1": 0.0
+            },
+            "Joy Daniella V": {
+                "precision": 0.0,
+                "recall": 0.0,
+                "f1": 0.0
+            },
+            "Joyapul Hanscalvin Panjaitan": {
+                "precision": 0.0,
+                "recall": 0.0,
+                "f1": 0.0
+            },
+            "Kayla Chika Lathisya": {
+                "precision": 0.0,
+                "recall": 0.0,
+                "f1": 0.0
+            },
+            "Kenneth Austin Wijaya": {
+                "precision": 0.0,
+                "recall": 0.0,
+                "f1": 0.0
+            },
+            "Kevin Naufal Dany": {
+                "precision": 0.0,
+                "recall": 0.0,
+                "f1": 0.0
+            },
+            "Lois Novel E Gurning": {
+                "precision": 0.0,
+                "recall": 0.0,
+                "f1": 0.0
+            },
+            "Machzaul harmansyah": {
+                "precision": 0.0,
+                "recall": 0.0,
+                "f1": 0.0
+            },
+            "Martua Kevin A.M.H.Lubis": {
+                "precision": 0.0,
+                "recall": 0.0,
+                "f1": 0.0
+            },
+            "Muhammad Fasya Atthoriq": {
+                "precision": 0.0,
+                "recall": 0.0,
+                "f1": 0.0
+            },
+            "Muhammad Nelwan Fakhri": {
+                "precision": 0.0,
+                "recall": 0.0,
+                "f1": 0.0
+            },
+            "Muhammad Riveldo Hermawan Putra": {
+                "precision": 0.0,
+                "recall": 0.0,
+                "f1": 0.0
+            },
+            "Muhammad Zada Rizki": {
+                "precision": 0.0,
+                "recall": 0.0,
+                "f1": 0.0
+            },
+            "Mychael Daniel N": {
+                "precision": 0.0,
+                "recall": 0.0,
+                "f1": 0.0
+            },
+            "Nasya Aulia Efendi": {
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "Raditya Erza Farandi": {
+                "precision": 0.0,
+                "recall": 0.0,
+                "f1": 0.0
+            },
+            "Rahmat Aldi Nasda": {
+                "precision": 0.125,
+                "recall": 0.6666666666666666,
+                "f1": 0.21052631578947367
+            },
+            "Randy Hendriyawan": {
+                "precision": 0.0,
+                "recall": 0.0,
+                "f1": 0.0
+            },
+            "Rayhan Fadel Irwanto": {
+                "precision": 0.0,
+                "recall": 0.0,
+                "f1": 0.0
+            },
+            "Rayhan Fatih Gunawan": {
+                "precision": 0.0,
+                "recall": 0.0,
+                "f1": 0.0
+            },
+            "Reynaldi Cristian Simamora": {
+                "precision": 0.0,
+                "recall": 0.0,
+                "f1": 0.0
+            },
+            "Rizky Abdillah": {
+                "precision": 0.0,
+                "recall": 0.0,
+                "f1": 0.0
+            },
+            "Royfran Roger Valentino": {
+                "precision": 0.0,
+                "recall": 0.0,
+                "f1": 0.0
+            },
+            "Rustian Afencius Marbun": {
+                "precision": 0.0,
+                "recall": 0.0,
+                "f1": 0.0
+            },
+            "Shintya Ayu Wardani": {
+                "precision": 0.0,
+                "recall": 0.0,
+                "f1": 0.0
+            },
+            "Sikah Nubuahtul Ilmi": {
+                "precision": 0.0,
+                "recall": 0.0,
+                "f1": 0.0
+            },
+            "William Chan": {
+                "precision": 0.5,
+                "recall": 0.3333333333333333,
+                "f1": 0.4
+            },
+            "Yohanna Anzelika Sitepu": {
+                "precision": 0.0,
+                "recall": 0.0,
+                "f1": 0.0
+            },
+            "Zakhi algifari": {
+                "precision": 0.0,
+                "recall": 0.0,
+                "f1": 0.0
+            },
+            "Zaky Ahmad Makarim": {
+                "precision": 0.0,
+                "recall": 0.0,
+                "f1": 0.0
+            },
+            "Zefanya Danovanta Tarigan": {
+                "precision": 0.0,
+                "recall": 0.0,
+                "f1": 0.0
+            },
+            "Zidan Raihan": {
+                "precision": 0.0,
+                "recall": 0.0,
+                "f1": 0.0
+            },
+            "hayyatul fajri": {
+                "precision": 1.0,
+                "recall": 0.3333333333333333,
+                "f1": 0.5
+            }
+        }
+    }
+}
