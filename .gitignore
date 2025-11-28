@@ -48,6 +48,7 @@ dataset/
 outputs/logs/*.log
 outputs/checkpoints/*
 outputs/visualizations/*
+outputs/attendance.csv
 
 # Logs
 *.log
