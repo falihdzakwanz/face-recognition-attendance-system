@@ -281,8 +281,23 @@ For questions, issues, or suggestions:
 - Open an [Issue](https://github.com/YOUR_USERNAME/face-recognition-attendance-system/issues)
 - Pull requests are welcome!
 
+
+---
+
+# Model Testing & Validation
+
+To validate your trained model and get evaluation metrics (confusion matrix, accuracy, precision, recall, F1):
+
+- Use the provided `test.py` script for robust evaluation.
+- The script automatically finds the latest model and test folder.
+- Results include per-image predictions, confusion matrix, metrics, per-class accuracy, and CSV export.
+
+## Quickstart: Model Testing
+
+See [QUICKSTART_TEST.md](QUICKSTART_TEST.md) for step-by-step instructions.
+
+---
+
 ## ⭐ Star History
 
 If you find this project useful, please consider giving it a star! ⭐
-
----
