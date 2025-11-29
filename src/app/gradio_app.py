@@ -349,9 +349,9 @@ def create_gradio_interface(
 
                     with gr.Row():
                         confidence_slider = gr.Slider(
-                            minimum=0.5,
+                            minimum=0.3,
                             maximum=0.99,
-                            value=0.55,
+                            value=0.3,
                             step=0.05,
                             label="Confidence Threshold",
                         )

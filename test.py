@@ -70,6 +70,10 @@ def find_model():
     raise FileNotFoundError("No trained model found!")
 
 
+
+# Confidence threshold for prediction
+CONFIDENCE_THRESHOLD = 0.3
+
 # Initialize config
 MODEL_PATH = find_model()
 TEST_DIR = find_test_directory()
@@ -147,8 +151,8 @@ def load_model_and_classes():
         return None, ["unknown"], torch.device("cpu")
 
 
-def predict(img_path, model, class_names, device):
-    """Predict image dengan robust error handling"""
+def predict(img_path, model, class_names, device, confidence_threshold=CONFIDENCE_THRESHOLD):
+    """Predict image dengan robust error handling dan threshold"""
     try:
         if model is None:
             return "unknown", 0.5, 0  # Fallback prediction
@@ -180,6 +184,10 @@ def predict(img_path, model, class_names, device):
             confidence, pred_idx = torch.max(probs, dim=1)
             confidence = confidence.item()
             pred_idx = pred_idx.item()
+
+            # Apply confidence threshold
+            if confidence < confidence_threshold:
+                return "Unknown", confidence, pred_idx
 
             # Handle index out of bounds
             if pred_idx >= len(class_names):
