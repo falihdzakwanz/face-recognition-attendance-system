@@ -16,6 +16,9 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 from glob import glob
 
+# Import FaceDetector for alignment
+from src.preprocessing.face_detector import FaceDetector
+
 try:
     from src.models.cnn_facenet import create_model
     from src.utils.config_loader import load_config
@@ -152,7 +155,7 @@ def load_model_and_classes():
 
 
 def predict(img_path, model, class_names, device, confidence_threshold=CONFIDENCE_THRESHOLD):
-    """Predict image dengan robust error handling dan threshold"""
+    """Predict image dengan face alignment dan threshold"""
     try:
         if model is None:
             return "unknown", 0.5, 0  # Fallback prediction
@@ -166,10 +169,26 @@ def predict(img_path, model, class_names, device, confidence_threshold=CONFIDENC
             raise ValueError(f"Could not read image: {img_path}")
 
         img_rgb = cv2.cvtColor(img_bgr, cv2.COLOR_BGR2RGB)
-        img_resized = cv2.resize(img_rgb, (IMG_SIZE, IMG_SIZE))
+
+        # --- FACE ALIGNMENT ---
+        # Use FaceDetector to align face (same as inference pipeline)
+        face_detector = getattr(predict, "_face_detector", None)
+        if face_detector is None:
+            face_detector = FaceDetector(target_size=(IMG_SIZE, IMG_SIZE), min_confidence=0.90)
+            predict._face_detector = face_detector
+
+        detections = face_detector.detect_faces(img_rgb)
+        if len(detections) == 0:
+            return "NoFace", 0.0, -1
+
+        # Use face with highest confidence
+        best_detection = max(detections, key=lambda x: x['confidence'])
+        aligned_face = face_detector.align_face(img_rgb, best_detection['box'])
+        if aligned_face is None:
+            return "AlignFail", 0.0, -1
 
         # Convert to tensor
-        img_tensor = torch.from_numpy(img_resized).permute(2, 0, 1).float() / 255.0
+        img_tensor = torch.from_numpy(aligned_face).permute(2, 0, 1).float() / 255.0
         mean = torch.tensor([0.485, 0.456, 0.406]).view(3, 1, 1)
         std = torch.tensor([0.229, 0.224, 0.225]).view(3, 1, 1)
         img_tensor = (img_tensor - mean) / std
