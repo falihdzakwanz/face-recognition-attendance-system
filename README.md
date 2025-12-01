@@ -1,6 +1,6 @@
 # Face Recognition Attendance System
 
-> **Real-time face recognition system for automated student attendance using Deep Learning with CNN (FaceNet + ArcFace) and Transformer (DeiT) architectures.**
+> **Real-time face recognition system for automated student attendance using Deep Learning with CNN (FaceNet + ArcFace) architecture.**
 
 [![Python](https://img.shields.io/badge/Python-3.12-blue.svg)](https://www.python.org/)
 [![PyTorch](https://img.shields.io/badge/PyTorch-2.7.1-red.svg)](https://pytorch.org/)
@@ -12,7 +12,7 @@
 An end-to-end face recognition attendance system designed for educational institutions, featuring:
 
 - **🎓 Multi-Student Support**: Handles 70+ registered students
-- **🤖 Dual Architecture**: CNN (FaceNet + ArcFace) + Transformer (DeiT) models
+- **🤖 CNN Architecture**: InceptionResNetV1 (FaceNet) with ArcFace loss (DeiT Transformer for comparison)
 - **📸 Real-Time Detection**: MTCNN for accurate face detection and alignment
 - **💻 User-Friendly Interface**: Gradio-based web application
 - **📊 High Accuracy**: 99.4% validation accuracy with ArcFace loss
@@ -22,15 +22,13 @@ An end-to-end face recognition attendance system designed for educational instit
 
 ✅ **Face Detection & Alignment** using MTCNN  
 ✅ **Advanced Data Augmentation** (20+ transformations)  
-✅ **Multiple Model Architectures**:
-
-- CNN: InceptionResNetV1 (FaceNet) with ArcFace loss
-- Transformer: DeiT (Data-efficient Image Transformer)  
-  ✅ **Automatic Attendance Logging** with cooldown prevention  
-  ✅ **Real-time Webcam Support**  
-  ✅ **Adjustable Confidence Threshold**  
-  ✅ **Attendance History & Analytics**  
-  ✅ **Easy Deployment** (Local, Cloud, or Hugging Face Spaces)
+✅ **CNN Model Architecture**: InceptionResNetV1 (FaceNet) with ArcFace loss  
+✅ **Model Comparison**: Transformer (DeiT) available for benchmarking  
+✅ **Automatic Attendance Logging** with cooldown prevention  
+✅ **Real-time Webcam Support**  
+✅ **Adjustable Confidence Threshold**  
+✅ **Attendance History & Analytics**  
+✅ **Easy Deployment** (Local or Cloud)
 
 ## 🏗️ Project Structure
 
@@ -145,7 +143,7 @@ python main.py --app
 
 ## 📊 Model Performance
 
-### CNN (FaceNet + ArcFace)
+### Primary Model: CNN (FaceNet + ArcFace)
 
 - **Architecture**: InceptionResNetV1
 - **Input Size**: 224×224
@@ -153,14 +151,16 @@ python main.py --app
 - **F1 Score**: 99.4%
 - **Loss Function**: ArcFace (angular margin)
 - **Training Time**: ~40 minutes (GPU)
+- **Status**: ✅ Production model
 
-### Transformer (DeiT)
+### Comparison Model: Transformer (DeiT)
 
 - **Architecture**: DeiT Small Patch16
 - **Input Size**: 224×224
 - **Parameters**: 22M
 - **Pre-training**: ImageNet-1K
 - **Training Time**: ~60 minutes (GPU)
+- **Status**: 📊 Benchmarking only
 
 ## 📊 Model Architectures
 
@@ -238,10 +238,6 @@ python main.py --app --share
 # Get temporary gradio.live link (72 hours)
 ```
 
-### Hugging Face Spaces
-
-See `TUTORIAL_DEPLOY_HF.md` for complete deployment guide to HF Spaces.
-
 ## 🔧 Configuration
 
 Customize settings in `config.yaml`:
@@ -294,7 +290,14 @@ To validate your trained model and get evaluation metrics (confusion matrix, acc
 
 ## Quickstart: Model Testing
 
-See [QUICKSTART_TEST.md](QUICKSTART_TEST.md) for step-by-step instructions.
+See [QUICKSTART_TEST.md](docs/QUICKSTART_TEST.md) for step-by-step instructions.
+
+## 📚 Documentation
+
+- **[Architecture Details](docs/ARSITEKTUR_MODEL.md)** - Complete model architecture documentation
+- **[Model Specifications](docs/MODELS_FINAL.md)** - Model comparison and specifications
+- **[Quick Start Guide](docs/QUICKSTART.md)** - Getting started with the system
+- **[Testing Guide](docs/QUICKSTART_TEST.md)** - Model validation and evaluation
 
 ---
 

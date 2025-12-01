@@ -1,3 +1,0 @@
-Experiment: cnn_arcface_20251127_163448
-Best validation accuracy: 1.0000
-Total epochs: 26
